@@ -3,11 +3,11 @@ import mysql.connector
 import streamlit as st
 
 conn = mysql.connector.connect(
-host="localhost",
+host="46.202.164.177",
 port="3306",
-user="root",
-passwd="",
-db="streamlit_mysql")
+user="streamlit_vps_user",
+passwd="vps_streamlit",
+db="my_streamlit")
 
 c = conn.cursor()
 
